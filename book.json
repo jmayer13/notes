@@ -1,0 +1,5 @@
+{
+	"output": "public",
+    "plugins": ["tags"],
+    "ignores": ["public", "node_modules"]
+}

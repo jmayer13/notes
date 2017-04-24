@@ -1,0 +1,19 @@
+{
+    "name": "notes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "gitbook install & gitbook build  ./ --log=debug --debug",
+        "serve": "gitbook install & gitbook serve",
+        "setup": "gitbook install",
+        "deploy": "git subtree push --prefix build origin pages",
+        "generate-summary": "book sm"
+    },
+    "dependencies": {
+        "gitbook-cli": "^2.3.0"
+    },
+    "devDependencies": {
+        "gitbook-summary": "^1.1.2"
+    }
+}

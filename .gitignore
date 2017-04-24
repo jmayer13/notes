@@ -1,0 +1,16 @@
+*.plan
+*~
+*.do
+*.gaps
+**/proj/*
+*.bak
+*.log
+pids
+*.pid
+*.seed
+lib-cov
+build/Release
+/node_modules
+_book
+book.pdf
+book.epub
