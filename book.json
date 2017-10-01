@@ -1,0 +1,4 @@
+{
+    "plugins": ["tags"],
+    "ignores": ["_book", "node_modules"]
+}
